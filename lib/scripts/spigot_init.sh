@@ -80,6 +80,15 @@ if [ -n "$PERMISSIONSEX" ]; then
   fi
 fi
 
+## placeholder for worldedit
+# http://builds.enginehub.org/job/worldedit/8831
+
+## placeholder for multiverse-corce
+# http://mods.curse.com/bukkit-plugins/minecraft/multiverse-core/912081
+
+## placeholder for elytra
+# https://www.spigotmc.org/resources/superelytra-improved-elytra-flight.19382/download?version=74579
+
 if [ ! -f /$SPIGOT_HOME/opts.txt ]
 then
     cp /usr/local/etc/minecraft/opts.txt /$SPIGOT_HOME/
